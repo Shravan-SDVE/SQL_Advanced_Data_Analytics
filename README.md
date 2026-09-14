@@ -53,11 +53,6 @@ Two production-style SQL views that consolidate all metrics into single, reusabl
 2. Run the scripts in `scripts/` in numeric order — `06_report_customers.sql` and `07_report_products.sql` create views (`gold.report_customers`, `gold.report_products`) that the earlier scripts don't depend on, so they can also be run independently.
 3. Query the views or run each analysis script's `SELECT` statements directly to reproduce the result sets shown in the documentation.
 
-
-## 🛠️ Requirements
-- SQL Server (or any dialect supporting `DATETRUNC`, `DATEDIFF`, and window functions — adjust syntax for PostgreSQL/MySQL/Snowflake as needed)
-- A SQL client (SSMS)
-
 ## 📸 Screenshots
 Query result screenshots for every analysis are included in [https://github.com/Shravan-SDVE/SQL_Advanced_Data_Analytics/tree/main/images] and walked through in the [full documentation  - [https://github.com/Shravan-SDVE/SQL_Advanced_Data_Analytics/tree/main/docs].
 
