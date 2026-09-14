@@ -59,6 +59,6 @@ Two production-style SQL views that consolidate all metrics into single, reusabl
 - A SQL client (SSMS)
 
 ## 📸 Screenshots
-Query result screenshots for every analysis are included in (https://github.com/Shravan-SDVE/SQL_Advanced_Data_Analytics/tree/main/images] and walked through in the [full documentation  - [https://github.com/Shravan-SDVE/SQL_Advanced_Data_Analytics/tree/main/docs].
+Query result screenshots for every analysis are included in [https://github.com/Shravan-SDVE/SQL_Advanced_Data_Analytics/tree/main/images] and walked through in the [full documentation  - [https://github.com/Shravan-SDVE/SQL_Advanced_Data_Analytics/tree/main/docs].
 
 
