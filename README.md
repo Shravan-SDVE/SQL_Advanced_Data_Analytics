@@ -2,9 +2,7 @@
 
 Advanced SQL analytics project built on a small AdventureWorks-style **Gold Layer** sales dataset. It goes beyond basic querying to demonstrate the analytical SQL patterns used in real-world BI work: trend analysis, cumulative tracking, performance benchmarking, part-to-whole contribution, segmentation, and consolidated reporting views.
 
-📄 Full write-up with explanations, queries, and result screenshots: **[SQL_Advanced_Analytics_Documentation.docx](./docs/SQL_Advanced_Analytics_Documentation.docx)**
-
----
+📄 Full write-up with explanations, queries, and result screenshots: **[https://github.com/Shravan-SDVE/SQL_Advanced_Data_Analytics/tree/main/docs]**
 
 ## 🧱 Data Model
 
@@ -55,13 +53,12 @@ Two production-style SQL views that consolidate all metrics into single, reusabl
 2. Run the scripts in `scripts/` in numeric order — `06_report_customers.sql` and `07_report_products.sql` create views (`gold.report_customers`, `gold.report_products`) that the earlier scripts don't depend on, so they can also be run independently.
 3. Query the views or run each analysis script's `SELECT` statements directly to reproduce the result sets shown in the documentation.
 
-> **Note:** `06_report_customers.sql` is missing a comma after `total_products` (before `lifespan`) in the column list — add it back before running, or the script will fail with a syntax error.
 
 ## 🛠️ Requirements
 - SQL Server (or any dialect supporting `DATETRUNC`, `DATEDIFF`, and window functions — adjust syntax for PostgreSQL/MySQL/Snowflake as needed)
-- A SQL client (Azure Data Studio, SSMS, DBeaver, etc.)
+- A SQL client (SSMS)
 
 ## 📸 Screenshots
-Query result screenshots for every analysis are included in [`docs/images/`](./docs/images/) and walked through in the [full documentation](./docs/SQL_Advanced_Analytics_Documentation.docx).
+Query result screenshots for every analysis are included in [[`docs/images/`](./docs/images/](https://github.com/Shravan-SDVE/SQL_Advanced_Data_Analytics/tree/main/images)) and walked through in the [full documentation]([https://github.com/Shravan-SDVE/SQL_Advanced_Data_Analytics/tree/main/docs]).
 
 
